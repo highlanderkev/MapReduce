@@ -1,7 +1,11 @@
-README For Homework 3
-CSC 536 - Distributed Systems 2
-Professor Ljubomir Perkovic
-By Student Kevin Westropp
+MapReduce
+===
+
+| README For MapReduce |
+---
+| CSC 536: Distributed Systems 2 |
+| Professor Ljubomir Perkovic |
+| By Student Kevin Westropp |
 
 
 There are two main directories:
@@ -11,9 +15,8 @@ There are two main directories:
 2. remote_mapreduce - this contains scala/sbt code for Question 2
 
 
-==========
 To Compile
-==========
+---
 1. 
 - navigate to root folder /mapreduce
            
@@ -24,10 +27,8 @@ To Compile
 
            $ sbt compile
 
-
-======
 To Run
-======
+---
 1.
 - folder /mapreduce
 
@@ -44,9 +45,8 @@ then
            $ sbt run
 
 
-========
 Stopping
-========
+---
 1.
 - should automatically shutdown after map reduce jobs finish. 
         

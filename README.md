@@ -17,42 +17,33 @@ There are two main directories:
 
 To Compile
 ---
-1. 
-- navigate to root folder /mapreduce
+1. navigate to root folder /mapreduce
            
            $ sbt compile
 
-2.
-- start two shells/terminals and navigate to /remote_mapreduce/server & /remote_mapreduce/client
+2. start two shells/terminals and navigate to /remote_mapreduce/server & /remote_mapreduce/client
 
            $ sbt compile
 
 To Run
 ---
-1.
-- folder /mapreduce
+1. folder /mapreduce
 
            $ sbt run
 
-2.
-- folder /remote_mapreduce/server
+2. folder /remote_mapreduce/server
            $ sbt run
 
-then
-
-- folder /remote_mapreduce/client
+then folder /remote_mapreduce/client
 
            $ sbt run
-
 
 Stopping
 ---
-1.
-- should automatically shutdown after map reduce jobs finish. 
+1. should automatically shutdown after map reduce jobs finish. 
         
            $ (Ctrl-x Ctrl-C) if needed
 
-2. 
-- also will auto shutdown (with a delay) after map reduce jobs finish.
+2. also will auto shutdown (with a delay) after map reduce jobs finish.
 
            $ (Ctrl-x Ctrl-C) if needed 

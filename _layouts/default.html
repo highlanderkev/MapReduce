@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    {% include head.html %}
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        {% include header.html %}
+    </header>
+    <section>
+            {{ content }}
+    </section>
+    <hr />
+    <footer>
+        {% include footer.html %}
+    </footer>
+</div><!-- /End wrapper -->
+{% include javascripts.html %}
+</body>
+</html>

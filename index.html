@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="section-content">
+    <h1 class="text-center">MapReduce</h1>
+    <p class="text-center">MapReduce Custom Implementation in Scala and Akka</p>
+    <p class="view text-center"><a href="https://github.com/highlanderkev/MapReduce">View the Project on GitHub <small>highlanderkev/MapReduce</small></a></p>
+    <center>
+    <div class="btn-group">
+        <a href="https://github.com/highlanderkev/MapReduce/zipball/master" class="btn btn-mini btn-primary">Download <br /><strong>ZIP File</strong></a></li>
+        <a href="https://github.com/highlanderkev/MapReduce/tarball/master" class="btn btn-mini btn-primary">Download <br /><strong>TAR Ball</strong></a></li>
+        <a href="https://github.com/highlanderkev/MapReduce" class="btn btn-mini btn-primary">View On <br /><strong>GitHub</strong></a></li>
+    </div>
+    </center>
+    <hr>
+    <div class="well">
+        <h2>Custom Map Reduce</h2>
+        <p>There are two main apps which both perform a simple word count on text files. One directory is for a map reduce program that creates actors all on the same machine. The second directory is for a remote map reduce program where some of the actors are on remote machines.</p>
+        <p>The application has two main functions or actors. The first (map) actor implements the map function and outputs the word and count to the (reduce) actor. The reduce actor then combines words and counts and outputs the final key/values of word and the total count of how many timees the word appears in the text.</p>
+        <h3>Next Step:</h3>
+        <p>The next step or challenge is to then transform either one of these map/reduce applications into an application which implements a higher-order mapreduce implementation, which can take any map and reduce function and run it on the files.</p>
+        <hr>
+        <p>This project is maintained by <a href="https://github.com/highlanderkev">highlanderkev</a></p>
+    </div>
+</div>

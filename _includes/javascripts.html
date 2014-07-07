@@ -1,0 +1,21 @@
+<!-- Le javascript
+================== --
+<!-- Other scripts placed at bottom for faster loading -->
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+{% include jquery.html %}
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="/js/scale.fix.js"></script>
+<script>
+$('#twitter-widget').collapse()
+$(document).ready(function(){
+var h =  $(window ).height();
+if (h<640){
+	      $('#twitter-widget').collapse('toggle')
+}
+});
+$('#depaulwebsite').tooltip()
+$('#orgwebsite').tooltip()
+$('#githubwebsite').tooltip()
+$('#linkedinwebsite').tooltip()
+$('#myemail').tooltip()
+</script>

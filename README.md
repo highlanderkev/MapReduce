@@ -10,10 +10,9 @@ MapReduce
 
 There are two main directories:
 
-1. mapreduce - this contains scala/sbt code for Question 1
+1. mapreduce - this contains scala/sbt code for Local Map Reduce
 
-2. remote_mapreduce - this contains scala/sbt code for Question 2
-
+2. remote_mapreduce - this contains scala/sbt code for Map Reduce with Remote Actors
 
 To Compile
 ---
